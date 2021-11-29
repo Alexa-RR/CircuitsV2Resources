@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "cloudflare-docs-engine": "git+https://github.com/Alexa-RR/cloudflare-docs-engine.git",
+    "cloudflare-docs-engine": "git+https://github.com/Alexa-RR/cloudflare-docs-engine.git#3c0b8eab48",
     "gatsby-remark-emojis": "^0.4.3"
   },
   "scripts": {
