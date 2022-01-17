@@ -7,7 +7,7 @@ module.exports = {
   externalLinks: [
     {
       title: "CircuitsV2ResourcesV2 on GitHub",
-      url: "https://github.com/Alexa-RR/CircuitsV2ResourcesV2"
+      url: "https://github.com/Alexa-RR/CircuitsV2Resources"
     },
     {
       title: "Original website",
