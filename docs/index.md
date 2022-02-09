@@ -4,6 +4,10 @@
 
 - [Releases](releases/)
 - [Designs](designs/)
+- Circuits Design System
+  - If you make a Figma account, you can use these to make fancy images of chips and graphs.
+  - [Chip, Port and Wire Designs](https://www.figma.com/community/file/1070750698042818512)
+  - [Colors](https://www.figma.com/community/file/1070759222767700948)
 - [How To Circuits V2 Blog Post](https://blog.recroom.com/posts/2020/8/3/how-2-circuits-2)
 - [The Circuits Handbook Blog Post](https://blog.recroom.com/posts/2021/5/03/the-circuits-handbook)
 - [Rec Room Discord](https://discord.com/channels/193073071802941451/746858632301510708)
