@@ -1,3 +1,6 @@
+---
+order: 0
+---
 # Circuits V2 Resources
 
 ## Official Resources

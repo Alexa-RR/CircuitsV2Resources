@@ -1,6 +1,6 @@
 ---
 title: 'Palette Search V2'
-order: 7
+order: 1
 ---
 <html>
   <head>

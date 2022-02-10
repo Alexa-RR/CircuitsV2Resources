@@ -1,6 +1,6 @@
 ---
 title: 'Color Type And Chips'
-order: 2
+order: 5
 ---
 <html>
   <head>

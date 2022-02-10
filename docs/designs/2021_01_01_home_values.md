@@ -1,6 +1,6 @@
 ---
 title: 'Home Values'
-order: 6
+order: 1
 ---
 <html>
   <head>

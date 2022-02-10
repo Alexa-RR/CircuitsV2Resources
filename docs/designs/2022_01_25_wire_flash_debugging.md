@@ -1,6 +1,6 @@
 ---
 title: 'Wire Flash Debugging'
-order: 1
+order: 9
 ---
 <html>
   <head>

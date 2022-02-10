@@ -1,3 +1,7 @@
+---
+order: 1
+---
+
 # Releases
 - [Version 2.26 (Next Next)](2_26)
 - [Version 2.25 (Next)](2_25)
