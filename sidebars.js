@@ -29,8 +29,8 @@ const sidebars = {
   ],
    */
   tutorialSidebar: [
-    'Resources',
-    {
+    'intro',
+   /* {
       type: 'category',
       label: 'Resources',
       link: {
@@ -41,6 +41,7 @@ const sidebars = {
         'maintainer'
       ]
     }
+    */
   ],
 
 };
