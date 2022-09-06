@@ -1,6 +1,7 @@
 ---
-title: 'Welcome!'
+Title: 'Introduction'
 ---
+# Introduction
 
 :wave: Hello!
 

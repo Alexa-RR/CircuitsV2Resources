@@ -1,6 +1,4 @@
 ---
-title: 'Credits'
-order: 1
 ---
 
 I want to give huge Thenks to forbym for helping out with this project.

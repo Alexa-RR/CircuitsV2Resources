@@ -28,21 +28,10 @@ const sidebars = {
     },
   ],
    */
-  tutorialSidebar: [
-    'intro',
-   /* {
-      type: 'category',
-      label: 'Resources',
-      link: {
-        type: 'generated-index',
-      },
-      collapsed: true,
-      items: [
-        'maintainer'
-      ]
-    }
-    */
-  ],
+  Sidebar: [
+    'Resources',
+    'Maintainer'
+  ]
 
 };
 

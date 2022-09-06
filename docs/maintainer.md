@@ -1,5 +1,5 @@
 ---
-order: 3
+id: Maintainer
 ---
 # Maintainer
 

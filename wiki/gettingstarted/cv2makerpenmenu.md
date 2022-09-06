@@ -1,4 +1,5 @@
 ---
+id: 'makerpenmenu'
 title: 'Getting Started'
 order: 1
 ---
@@ -10,7 +11,7 @@ To get to the CV2 menu, you first need to open the Maker Pen Palette, this can b
 ```
 Watch > Backback > Maker Pen > Use
 ```
-![On PC Screen](https://github.com/Alexa-RR/RecRoomCV2-Docs/blob/master/content/Images/MakerPen/PcScreenMakerpen.gif?raw=true)
+![On PC Screen](/Images/MakerPen/PcScreenMakerpen.gif)
 
 <Info> You need Maker Pen Permissions (see Watch > This Room > Settings > Permissions) to use CV2 in Custom Rooms. </Info>
 
@@ -27,14 +28,14 @@ For PC Players on screen:
 ```
 Prees F > Open Palette
 ```
-![](https://github.com/Alexa-RR/RecRoomCV2-Docs/blob/master/content/Images/MakerPen/makerpenpalette.gif?raw=true)
+![](/Images/MakerPen/makerpenpalette.gif)
 
 Then go to "Circuits V2" and it should look like this:
-![](https://github.com/Alexa-RR/RecRoomCV2-Docs/blob/master/content/Images/MakerPen/CV2Menu.png?raw=true)
+![](/Images/MakerPen/CV2Menu.png)
 
 <Tip> I recommend using the search tab as its more comfortable to search chips </Tip>
 
-![](https://github.com/Alexa-RR/RecRoomCV2-Docs/blob/master/content/Images/MakerPen/CV2Search.png?raw=true)
+![](/Images/MakerPen/CV2Search.png)
 
 ## Beta Content
 

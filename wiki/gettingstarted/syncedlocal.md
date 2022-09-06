@@ -1,4 +1,5 @@
 ---
+id: 'syncedlocal'
 title: 'CV2 execution types'
 order: 2
 ---

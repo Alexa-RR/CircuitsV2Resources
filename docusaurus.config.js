@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'The CV2 docs',
+  tagline: 'Made by Alexa and many others from the ❤️',
+  url: 'https://cv2.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Alexa-RR', // Usually your GitHub org/user name.
+  projectName: 'cv2.pages.dev', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -34,11 +34,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          //path: 'docs',
+          path: 'docs',
+          routeBasePath: 'docs',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -46,8 +47,8 @@ const config = {
           blogSidebarTitle: 'Updates',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,6 +56,31 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    function (context, options) {
+      return {
+        name: 'webpack-configuration-plugin',
+        configureWebpack(config, isServer, utils) {
+          return {
+            resolve: {
+              symlinks: false,
+            }
+          };
+        }
+      };
+    },
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'wiki',
+        path: 'wiki',
+        routeBasePath: 'wiki',
+        sidebarPath: require.resolve('./wikisidebars.js'),
+      }),
+    ]
+  ],
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -67,13 +93,19 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Resources',
             position: 'left',
             label: 'Resources',
           },
-          {to: '/.blog', label: 'blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/wiki',
+            label: 'Wiki',
+            position: 'left',
+            activeBaseRegex: `/wiki/`,
+          },
+          {to: '/blog', label: 'CV2 Updates', position: 'left'},
+          {
+            href: 'https://github.com/alexa-RR/cv2.pages.dev',
             label: 'GitHub',
             position: 'right',
           },
@@ -87,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '.docs',
+                to: 'docs',
               },
             ],
           },
@@ -95,17 +127,9 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              }
             ],
           },
           {
@@ -117,12 +141,11 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Alexa-RR/cv2.pages.dev',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,11 +1,11 @@
 ---
-id: intro
+id: Resources
 ---
 # Circuits V2 Resources
 
 ## Official Resources
 
-- [Releases](releases/)
+- [Releases](/blog)
 - [Designs](designs/)
 - Circuits Design System
   - If you make a Figma account, you can use these to make fancy images of chips and graphs.
@@ -37,7 +37,7 @@ These are additional lists of resources which may contain content not listed her
 
 ## Principals - _Circuits empowers by being_:
 
-- :balance_scale: **Elegant**: strike a balance between usability and capability
+- ⚖️ **Elegant**: strike a balance between usability and capability
   - build for the novice but empower the expert
   - Automate difficult concepts rather than dumbing them down
 - :hammer_and_wrench: **Productive**: a little effort does a lot of work
