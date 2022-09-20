@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -32,19 +32,22 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        debug: undefined,
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           path: 'docs',
           routeBasePath: 'docs',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/alexa-RR/cv2.pages.dev/tree/Enginerework',
         },
         blog: {
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'Updates',
+          sortPosts: 'ascending',
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -69,14 +72,18 @@ const config = {
         }
       };
     },
+    
     [
       'content-docs',
       /** @type {import('@docusaurus/plugin-content-docs').Options} */
       ({
         id: 'wiki',
         path: 'wiki',
+        
         routeBasePath: 'wiki',
         sidebarPath: require.resolve('./wikisidebars.js'),
+        editUrl:
+            'https://github.com/alexa-RR/cv2.pages.dev/tree/Enginerework'
       }),
     ]
   ],
@@ -85,10 +92,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'CV2 Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Hello_world.svg',
         },
         items: [
           {
@@ -128,7 +135,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/RswVV8pmYM',
               }
             ],
           },
@@ -151,6 +158,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: '9N9OJKXL7U',
+        apiKey: '696423219438f437c1e5155282cbefc9',
+        indexName: 'cv2'
+
+      }
     }),
 };
 

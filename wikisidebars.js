@@ -60,7 +60,48 @@ module.exports = {
       type: 'category',
       label: 'Value Types',
       link: {type: 'doc', id: 'gettingstarted/valuetypes'},
-      items: ['gettingstarted/valuetypes/exec', 'gettingstarted/valuetypes/bool']
-    }
+      items: [
+        {
+          type: 'doc',
+          id: 'gettingstarted/valuetypes/exec', // document ID
+          className: 'exec'
+        },
+        {
+          type: 'doc',
+          id: 'gettingstarted/valuetypes/bool', // document ID
+          className: 'bool'
+        },
+        {
+          type: 'doc',
+          id: 'gettingstarted/valuetypes/float', // document ID
+          className: 'float'
+        },
+        {
+          type: 'doc',
+          id: 'gettingstarted/valuetypes/int', // document ID
+          className: 'int'
+        },
+        {
+          type: 'doc',
+          id: 'gettingstarted/valuetypes/player', // document ID
+          className: 'player'
+        },
+        {
+          type: 'doc',
+          id: 'gettingstarted/valuetypes/recroomobject', // document ID
+          className: 'recroomobject'
+        },
+        {
+          type: 'doc',
+          id: 'gettingstarted/valuetypes/vector3', // document ID
+          className: 'vector3'
+        },
+        {
+          type: 'doc',
+          id: 'gettingstarted/valuetypes/string', // document ID
+          className: 'string'
+        },
+          ]
+    },
   ],
 };

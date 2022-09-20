@@ -1,5 +1,5 @@
 ---
-title: 'Bool value type'
+title: 'Bool'
 order: 1
 tocDepth: 2
 ---

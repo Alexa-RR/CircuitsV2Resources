@@ -6,25 +6,110 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #f16e46;
+  --ifm-color-primary-dark: #FB5120FF;
+  --ifm-color-primary-darker: #D94221FF;
+  --ifm-color-primary-darkest: #E03519FF;
+  --ifm-color-primary-light: #EF3A0CFF;
+  --ifm-color-primary-lighter: #FA6C3CFF;
+  --ifm-color-primary-lightest: #F68655FF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #f16e46;
+  --ifm-color-primary-dark: #D94221FF;
+  --ifm-color-primary-darker: #E03519FF;
+  --ifm-color-primary-darkest: #EB230EFF;
+  --ifm-color-primary-light: #DC3D1CFF;
+  --ifm-color-primary-lighter: #D54825FF;
+  --ifm-color-primary-lightest: #CC552DFF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+
+
+
+.theme-doc-sidebar-item-link-level-2 > .menu__link:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+}
+.theme-doc-sidebar-item-link > .theme-doc-sidebar-item-link-level-2 > .menu__list {
+  padding-left: 22px;
+}
+
+.theme-doc-sidebar-item-link > .theme-doc-sidebar-item-link-level-2 > .menu__list-item:hover {
+  background: transparent;
+}
+.exec .menu__link:before {
+  background-image: url(/img/sidebar-icons/wiki/normal/exec.svg);
+}
+
+.exec .menu__link--active:before {
+  background-image: url(/img/sidebar-icons/wiki/active/exec.svg);
+}
+
+.bool .menu__link:before {
+  background-image: url(/img/sidebar-icons/wiki/normal/bool.svg);
+}
+
+.bool .menu__link--active:before {
+  background-image: url(/img/sidebar-icons/wiki/active/bool.svg);
+}
+
+.float .menu__link:before {
+  background-image: url(/img/sidebar-icons/wiki/normal/float.svg);
+}
+
+.float .menu__link--active:before {
+  background-image: url(/img/sidebar-icons/wiki/active/float.svg);
+}
+
+.int .menu__link:before {
+  background-image: url(/img/sidebar-icons/wiki/normal/int.svg);
+}
+
+.int .menu__link--active:before {
+  background-image: url(/img/sidebar-icons/wiki/active/int.svg);
+}
+
+.player .menu__link:before {
+  background-image: url(/img/sidebar-icons/wiki/normal/object.svg);
+}
+
+.player .menu__link--active:before {
+  background-image: url(/img/sidebar-icons/wiki/active/object.svg);
+}
+
+.recroomobject .menu__link:before {
+  background-image: url(/img/sidebar-icons/wiki/normal/object.svg);
+}
+
+.recroomobject .menu__link--active:before {
+  background-image: url(/img/sidebar-icons/wiki/active/object.svg);
+}
+
+.vector3 .menu__link:before {
+  background-image: url(/img/sidebar-icons/wiki/normal/object.svg);
+}
+
+.vector3 .menu__link--active:before {
+  background-image: url(/img/sidebar-icons/wiki/active/object.svg);
+}
+
+.string .menu__link:before {
+  background-image: url(/img/sidebar-icons/wiki/normal/string.svg);
+}
+
+.string .menu__link--active:before {
+  background-image: url(/img/sidebar-icons/wiki/active/string.svg);
+}
+
