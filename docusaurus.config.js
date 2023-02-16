@@ -160,7 +160,7 @@ const config = {
       },
       algolia: {
         appId: '9N9OJKXL7U',
-        apiKey: '696423219438f437c1e5155282cbefc9',
+        apiKey: '25395dce9cb0b681d2d3b0cf30259dd7',
         indexName: 'cv2'
 
       }
